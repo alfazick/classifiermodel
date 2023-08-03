@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Image Display</title>
+    <title>Model Prediction</title>
     <style>
         .image-container {
             width: 300px;
@@ -17,8 +17,10 @@
 <body>
     <h1>Here's Your Image:</h1>
     <div class="image-container">
-        <img src="{{ image_url }}" alt="Selected Image">
+        <img src="{{ image_url }}" alt="Penguin Image">
     </div>
+
+    <p>Species identified: <strong>{{ species }}</strong></p>
     <br>
     <a href="/">Go Back</a>
 </body>
