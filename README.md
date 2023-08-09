@@ -51,3 +51,6 @@ After following these steps, your code should be deployed to Azure App Service, 
 access your Flask app at the URL shown in the "Overview" tab of your Web App. 
 This will look something like https://<your-app-name>.azurewebsites.net.
 # classifiermodel
+# computervision
+# computervision
+# computervision
